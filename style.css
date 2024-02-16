@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Lexend Deca";
+    margin: 4em 2em ;
+
+}
+section{
+    padding: .5em 3em;
+   
+}
+.section-1{
+    background-color:  hsl(31, 77%, 52%);
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    width: 500px;
+}
+.section-2{
+    background-color: hsl(184, 100%, 22%);
+    width: 500px;
+}
+.section-3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 0em 3em;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    width: 500px;
+}
+h1{
+    font-family: "Big Shoulders Display";
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 1em 0em .6em;
+}
+.section-3 h1{
+    margin: 1.2em 0em .6em;
+}
+p{
+    font-size: .9em;
+    line-height: 1.8em;
+    letter-spacing: 0.3px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    
+}
+.section-1 p{
+    margin: 0em 1em 5.5em 0em;
+}   
+.section-2 p{
+    margin: 0em 0em 5.5em 0em; 
+}  
+.section-3 p{
+    margin: 0em 0em 5.5em 0em;
+}
+
+.section-1 h1::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: url(./images/icon-sedans.svg);
+    background-size: cover;
+    margin-bottom: .63em;
+}
+.section-2 h1::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: url(./images/icon-suvs.svg);
+    background-size: cover;
+    margin-bottom: .63em;
+
+}
+.section-3 h1::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: url(./images/icon-luxury.svg);
+    background-size: cover;
+    margin-bottom: .65em;
+
+}
+a{
+    display: block;
+    max-width: 170px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: .88em;
+    border-radius: 1.5em;
+    margin-bottom: 2.5em;
+}
+.section-1 a{
+    color:  hsl(31, 77%, 52%);
+}
+.section-2 a{
+    color: hsl(184, 100%, 22%);
+}
+.section-3 a{
+    margin-bottom: 3em;
+    color: hsl(179, 100%, 13%);
+}
+@media screen and (min-width:800px) {
+    body{
+        height: 100vh;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 920px;
+    }
+    .section-1{
+        width: 308px;
+        border-top-right-radius: 0em;
+        border-bottom-left-radius: .5em;
+    }
+    .section-2{
+        width: 308px;
+    }
+    .section-3{
+        width:307px;
+        border-bottom-left-radius: 0em;
+        border-top-right-radius: .5em;
+    }
+    a{
+        max-width: 145px;
+    }
+    
+}
