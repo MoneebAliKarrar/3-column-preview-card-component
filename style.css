@@ -12,14 +12,14 @@ body{
     min-height: 100vh;
 }
 main{
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: "Lexend Deca";
-    margin: 4em 2em ;
+    margin-top: 4em;
 
 }
 section{
@@ -30,18 +30,18 @@ section{
     background-color:  hsl(31, 77%, 52%);
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
-    width: 500px;
+    width: 400px;
 }
 .section-2{
     background-color: hsl(184, 100%, 22%);
-    width: 500px;
+    width: 400px;
 }
 .section-3{
     background-color: hsl(179, 100%, 13%);
     padding: 0em 3em;
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
-    width: 500px;
+    width: 400px;
 }
 h1{
     font-family: "Big Shoulders Display";
